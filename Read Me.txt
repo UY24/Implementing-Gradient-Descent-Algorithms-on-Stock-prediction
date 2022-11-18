@@ -1,0 +1,48 @@
+in this we compared all 3 of the gradient descent method for stock prediction using LSTM.
+**Understanding the Pros and Cons of three different Gradient Descent Algorithms and 
+identifying possible ideal Use Cases for them.**
+
+>>> There are three main types of gradient descent algorithms: 
+batch gradient descent, stochastic gradient descent, and mini-batch gradient descent. 
+
+<1>. Batch gradient descent is the most common form of gradient descent. 
+It calculates the gradient of the cost function for the entire training dataset before 
+making a single update to the weights. Batch gradient descent can be very slow and is 
+impractical for large datasets. It is also prone to getting stuck in local minima. 
+
+<2>. Stochastic gradient descent is a variation of gradient descent that calculates the gradient
+of the cost function for each training example separately. This makes training faster, 
+but it can also be less reliable. Stochastic gradient descent is more likely to find a 
+global minimum than batch gradient descent, but it may take longer to converge. 
+
+<3>. Mini-batch gradient descent is a variation of stochastic gradient descent that calculates
+the gradient of the cost function for a small batch of training examples at a time. This
+makes training faster than batch gradient descent and more reliable than stochastic gradient 
+descent. Mini-batch gradient descent is the most common form of gradient descent used in practice. 
+
+--The ideal use case for batch gradient descent is a small dataset where the entire dataset can 
+be fit into memory. 
+
+--The ideal use case for stochastic gradient descent is a large dataset that cannot be fit into memory. 
+
+--The ideal use case for mini-batch gradient descent is a large dataset that can be fit into memory.
+
+Conclusion :
+The Gradient Descent Algorithms are a family of optimization algorithms that can be used to 
+find the minimum of a function. They are commonly used in machine learning and can be used to 
+find the minimum of a cost function. There are many different types of gradient descent algorithms,
+but they all share the same basic idea. The algorithm starts at a point in the function's space and 
+moves in the direction of the gradient of the function. The gradient is the vector of partial 
+derivatives of the function. The algorithm then takes a small step in the direction of the 
+gradient and repeats the process. The algorithm will continue until it reaches a point where 
+the gradient is zero. This point is the minimum of the function.
+1. Batch gradient descent: This algorithm processes all of the training data at each iteration. 
+It is ideal for problems with a large number of training examples.
+
+2. Stochastic gradient descent: This algorithm processes one training example at each iteration. 
+It is ideal for problems with a large number of training examples and for problems that are not 
+linearly separable.
+
+3. Mini-batch gradient descent: This algorithm processes a small number of training examples at 
+each iteration. It is ideal for problems with a large number of training examples and for problems
+that are not linearly separable.
